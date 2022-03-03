@@ -117,6 +117,20 @@ body {
     overflow: hidden;
     background-color: #f1f1f1;
 }
+#boxc {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    left: 120px;
+    top: 125px;
+    transform: rotateY(0deg);
+    background-color: #f3f3f3;
+    border-left: 5px solid black;
+    border-right: 5px solid black;
+    /* animation: turn 2s ease-in-out; */
+    animation: turn 4s ease;
+    animation-iteration-count: infinite;
+}
 
 /* row 2 */
 

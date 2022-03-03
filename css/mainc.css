@@ -48,7 +48,6 @@ body {
     color: black;
 }
 
-
 .template {
     width: 350px;
     height: 350px;
@@ -83,17 +82,13 @@ body {
     border-right: 5px solid black;
     /* animation: turn 2s ease-in-out; */
     animation: turn 4s linear;
-
     animation-iteration-count: infinite;
-
-
 }
 
 
 @keyframes turn {
     0% {
         transform: rotateY(0deg) translateY(0%);
-
     }
 
     50% {
@@ -102,7 +97,6 @@ body {
 
     100% {
         transform: rotateY(0deg) translateY(0%);
-
     }
 }
 
@@ -112,10 +106,26 @@ body {
     background-color: #f1f1f1;
 }
 
+
 #box3 {
     position: relative;
     overflow: hidden;
-    background-color: #f1f1f1;
+    background-color: #111111;
+}
+
+#boxc {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    left: 120px;
+    top: 125px;
+    transform: rotateY(0deg);
+    background-color: #f3f3f3;
+    border-left: 5px solid black;
+    border-right: 5px solid black;
+    /* animation: turn 2s ease-in-out; */
+    animation: turn 4s ease;
+    animation-iteration-count: infinite;
 }
 
 /* row 2 */
